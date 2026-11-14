@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "armorviewer",
+  "version": "${version}",
+  "name": "Armor Viewer",
+  "description": "Pod klawiszem O otwiera GUI z nickiem, wytrzymaloscia zbroi i nazwa seta.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.armorviewer.ArmorViewerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
